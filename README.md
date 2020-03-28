@@ -38,9 +38,15 @@ export default {
 </script>
 ```
 解释 $moveCenter 中第四个参数的属性
+
 xZoom:控制 x 轴上移动的幅度
+
 yZoom:控制 y 轴上移动的幅度
+
 xOffset:初始状态 x 轴偏移量
+
 yOffset:初始状态 y 轴偏移量
+
 during:每一次移动的持续时间（非线性移动）（单位为毫秒）
+
 time:移动的开始时间（单位为毫秒）
