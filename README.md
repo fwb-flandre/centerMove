@@ -10,6 +10,8 @@ Vue.use(centerMove)
 ```
 
 在项目中
+
+在对应的 div 或 img 上添加 v-center="move"，然后在 move 函数中获取的 x 和 y 为当前鼠标位置
 ``` javascript
   <div class="blogIndex" >
     <img src="../../assets/back.jpg" style="width: 115%" ref="img" v-center="move">
