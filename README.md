@@ -39,7 +39,9 @@ export default {
 }
 </script>
 ```
-解释 $moveCenter 中第四个参数的属性
+前三个参数必填
+
+解释 $moveCenter 中第四个参数的属性（均为可选项）
 
 xZoom:控制 x 轴上移动的幅度
 
